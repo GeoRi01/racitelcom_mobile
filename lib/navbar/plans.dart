@@ -382,10 +382,301 @@ class _PlansPageState extends State<PlansPage> {
                       ),
                     ] else ...[
                       Container(
-                        height: 100,
-                        width: 100,
-                        color: Colors.green,
-                      )
+                        padding:
+                            const EdgeInsets.only(top: 10, left: 10, right: 10),
+                        height: screenHeight * .17,
+                        width: screenWidth * .35,
+                        decoration: BoxDecoration(
+                          color: Colors.transparent,
+                          borderRadius: BorderRadius.circular(15),
+                          border: Border.all(
+                            color: const Color(0xFF000159),
+                            width: screenWidth * .01,
+                          ),
+                        ),
+                        child: Column(
+                          children: [
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children: [
+                                const Text(
+                                  "5 Mbps",
+                                  style: TextStyle(
+                                    fontSize: 30,
+                                    fontWeight: FontWeight.bold,
+                                    color: Color(0xFF0A0C7F),
+                                  ),
+                                ),
+                                Container(
+                                  decoration: const BoxDecoration(
+                                    color: Color(0xFF0A0C7F),
+                                    borderRadius: BorderRadius.only(
+                                        topLeft: Radius.circular(10),
+                                        bottomRight: Radius.circular(10)),
+                                  ),
+                                  height: screenHeight * .04,
+                                  width: screenWidth * .3,
+                                  padding: const EdgeInsets.only(top: 6),
+                                  child: const Text(
+                                    "₱ 1500.00",
+                                    textAlign: TextAlign.center,
+                                    style: TextStyle(
+                                        fontSize: 20, color: Colors.white),
+                                  ),
+                                ),
+                              ],
+                            ),
+                            SizedBox(height: screenHeight * .01),
+                            const Text(
+                              "Speed burst to 5 mbps. Average speed of up to 3mbps",
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                  color: Color(0XFF6286CB), fontSize: 14),
+                            ),
+                            SizedBox(
+                              height: screenHeight * .001,
+                            ),
+                            MaterialButton(
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(10),
+                              ),
+                              color: Colors.red,
+                              height: screenHeight * .03,
+                              onPressed: () {},
+                              child: const Text(
+                                "Subscribe",
+                                style: TextStyle(
+                                    fontSize: 20, color: Colors.white),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(
+                        height: screenHeight * .02,
+                      ),
+                      Container(
+                        padding:
+                            const EdgeInsets.only(top: 10, left: 10, right: 10),
+                        height: screenHeight * .17,
+                        width: screenWidth * .35,
+                        decoration: BoxDecoration(
+                          color: Colors.transparent,
+                          borderRadius: BorderRadius.circular(15),
+                          border: Border.all(
+                            color: const Color(0xFF000159),
+                            width: screenWidth * .01,
+                          ),
+                        ),
+                        child: Column(
+                          children: [
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children: [
+                                const Text(
+                                  "5 Mbps",
+                                  style: TextStyle(
+                                    fontSize: 30,
+                                    fontWeight: FontWeight.bold,
+                                    color: Color(0xFF0A0C7F),
+                                  ),
+                                ),
+                                Container(
+                                  decoration: const BoxDecoration(
+                                    color: Color(0xFF0A0C7F),
+                                    borderRadius: BorderRadius.only(
+                                        topLeft: Radius.circular(10),
+                                        bottomRight: Radius.circular(10)),
+                                  ),
+                                  height: screenHeight * .04,
+                                  width: screenWidth * .3,
+                                  padding: const EdgeInsets.only(top: 6),
+                                  child: const Text(
+                                    "₱ 1500.00",
+                                    textAlign: TextAlign.center,
+                                    style: TextStyle(
+                                        fontSize: 20, color: Colors.white),
+                                  ),
+                                ),
+                              ],
+                            ),
+                            SizedBox(height: screenHeight * .01),
+                            const Text(
+                              "Speed burst to 5 mbps. Average speed of up to 3mbps",
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                  color: Color(0XFF6286CB), fontSize: 14),
+                            ),
+                            SizedBox(
+                              height: screenHeight * .001,
+                            ),
+                            MaterialButton(
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(10),
+                              ),
+                              color: Colors.red,
+                              height: screenHeight * .03,
+                              onPressed: () {},
+                              child: const Text(
+                                "Subscribe",
+                                style: TextStyle(
+                                    fontSize: 20, color: Colors.white),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(
+                        height: screenHeight * .02,
+                      ),
+                      Container(
+                        padding:
+                            const EdgeInsets.only(top: 10, left: 10, right: 10),
+                        height: screenHeight * .17,
+                        width: screenWidth * .35,
+                        decoration: BoxDecoration(
+                          color: Colors.transparent,
+                          borderRadius: BorderRadius.circular(15),
+                          border: Border.all(
+                            color: const Color(0xFF000159),
+                            width: screenWidth * .01,
+                          ),
+                        ),
+                        child: Column(
+                          children: [
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children: [
+                                const Text(
+                                  "5 Mbps",
+                                  style: TextStyle(
+                                    fontSize: 30,
+                                    fontWeight: FontWeight.bold,
+                                    color: Color(0xFF0A0C7F),
+                                  ),
+                                ),
+                                Container(
+                                  decoration: const BoxDecoration(
+                                    color: Color(0xFF0A0C7F),
+                                    borderRadius: BorderRadius.only(
+                                        topLeft: Radius.circular(10),
+                                        bottomRight: Radius.circular(10)),
+                                  ),
+                                  height: screenHeight * .04,
+                                  width: screenWidth * .3,
+                                  padding: const EdgeInsets.only(top: 6),
+                                  child: const Text(
+                                    "₱ 1500.00",
+                                    textAlign: TextAlign.center,
+                                    style: TextStyle(
+                                        fontSize: 20, color: Colors.white),
+                                  ),
+                                ),
+                              ],
+                            ),
+                            SizedBox(height: screenHeight * .01),
+                            const Text(
+                              "Speed burst to 5 mbps. Average speed of up to 3mbps",
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                  color: Color(0XFF6286CB), fontSize: 14),
+                            ),
+                            SizedBox(
+                              height: screenHeight * .001,
+                            ),
+                            MaterialButton(
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(10),
+                              ),
+                              color: Colors.red,
+                              height: screenHeight * .03,
+                              onPressed: () {},
+                              child: const Text(
+                                "Subscribe",
+                                style: TextStyle(
+                                    fontSize: 20, color: Colors.white),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(
+                        height: screenHeight * .02,
+                      ),
+                      Container(
+                        padding:
+                            const EdgeInsets.only(top: 10, left: 10, right: 10),
+                        height: screenHeight * .17,
+                        width: screenWidth * .35,
+                        decoration: BoxDecoration(
+                          color: Colors.transparent,
+                          borderRadius: BorderRadius.circular(15),
+                          border: Border.all(
+                            color: const Color(0xFF000159),
+                            width: screenWidth * .01,
+                          ),
+                        ),
+                        child: Column(
+                          children: [
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children: [
+                                const Text(
+                                  "5 Mbps",
+                                  style: TextStyle(
+                                    fontSize: 30,
+                                    fontWeight: FontWeight.bold,
+                                    color: Color(0xFF0A0C7F),
+                                  ),
+                                ),
+                                Container(
+                                  decoration: const BoxDecoration(
+                                    color: Color(0xFF0A0C7F),
+                                    borderRadius: BorderRadius.only(
+                                        topLeft: Radius.circular(10),
+                                        bottomRight: Radius.circular(10)),
+                                  ),
+                                  height: screenHeight * .04,
+                                  width: screenWidth * .3,
+                                  padding: const EdgeInsets.only(top: 6),
+                                  child: const Text(
+                                    "₱ 1500.00",
+                                    textAlign: TextAlign.center,
+                                    style: TextStyle(
+                                        fontSize: 20, color: Colors.white),
+                                  ),
+                                ),
+                              ],
+                            ),
+                            SizedBox(height: screenHeight * .01),
+                            const Text(
+                              "Speed burst to 5 mbps. Average speed of up to 3mbps",
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                  color: Color(0XFF6286CB), fontSize: 14),
+                            ),
+                            SizedBox(
+                              height: screenHeight * .001,
+                            ),
+                            MaterialButton(
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(10),
+                              ),
+                              color: Colors.red,
+                              height: screenHeight * .03,
+                              onPressed: () {},
+                              child: const Text(
+                                "Subscribe",
+                                style: TextStyle(
+                                    fontSize: 20, color: Colors.white),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      SizedBox(
+                        height: screenHeight * .02,
+                      ),
                     ],
                   ],
                 ),

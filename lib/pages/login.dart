@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:racitel/pages/navbar.dart';
-import 'package:racitel/pages/register.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -137,14 +136,7 @@ class _LoginPageState extends State<LoginPage> {
                   width: screenWidth * .01,
                 ),
                 GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const RegisterPage(),
-                      ),
-                    );
-                  },
+                  onTap: () {},
                   child: const Text(
                     "Sign Up",
                     style: TextStyle(
