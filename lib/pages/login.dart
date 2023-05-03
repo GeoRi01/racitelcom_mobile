@@ -50,7 +50,10 @@ class _LoginPageState extends State<LoginPage> {
             ),
             const Text(
               'To continue using this app,\nplease sign up first.',
-              style: TextStyle(fontSize: 18),
+              style: TextStyle(
+                fontSize: 18,
+                color: Color(0XFF3B3B3B),
+              ),
               textAlign: TextAlign.center,
             ),
             SizedBox(

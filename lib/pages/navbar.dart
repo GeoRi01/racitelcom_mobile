@@ -36,7 +36,7 @@ class _HomeState extends State<Home> {
             topLeft: Radius.circular(20),
             topRight: Radius.circular(20),
           ),
-          color: Color(0xFF6286CB),
+          color: Color(0xFF0A0C7F),
         ),
         child: BottomAppBar(
           elevation: 0,
@@ -144,7 +144,7 @@ class IconBottomBar extends StatelessWidget {
             icon,
             size: 30,
             color: selected
-                ? const Color(0xFF000159)
+                ? const Color.fromARGB(255, 255, 255, 255)
                 : Colors.white.withOpacity(.5),
           ),
         ),
@@ -157,7 +157,7 @@ class IconBottomBar extends StatelessWidget {
               fontSize: 15,
               height: .1,
               color: selected
-                  ? const Color(0xFF000159)
+                  ? const Color.fromARGB(255, 255, 255, 255)
                   : Colors.white.withOpacity(.5)),
         ),
       ],

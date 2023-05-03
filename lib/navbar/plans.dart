@@ -18,7 +18,7 @@ class _PlansPageState extends State<PlansPage> {
     return ListView(
       children: [
         Container(
-          color: const Color(0xFF000159),
+          color: const Color(0xFF0A0C7F),
           height: screenHeight * .915,
           width: screenWidth,
           child: Column(
@@ -51,7 +51,7 @@ class _PlansPageState extends State<PlansPage> {
                     SlideSwitcher(
                       onSelect: (index) =>
                           setState(() => switcherIndex1 = index),
-                      slidersColors: const [Color(0xFF000159)],
+                      slidersColors: const [Color(0xFF0A0C7F)],
                       containerColor: const Color(0xFF577AA8),
                       containerHeight: screenHeight * .04,
                       containerWight: screenWidth * .729,
@@ -93,7 +93,7 @@ class _PlansPageState extends State<PlansPage> {
                           color: Colors.transparent,
                           borderRadius: BorderRadius.circular(15),
                           border: Border.all(
-                            color: const Color(0xFF000159),
+                            color: const Color(0xFF0A0C7F),
                             width: screenWidth * .01,
                           ),
                         ),
@@ -103,7 +103,7 @@ class _PlansPageState extends State<PlansPage> {
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
                                 const Text(
-                                  "5 Mbps",
+                                  "10 Mbps",
                                   style: TextStyle(
                                     fontSize: 30,
                                     fontWeight: FontWeight.bold,
@@ -121,7 +121,7 @@ class _PlansPageState extends State<PlansPage> {
                                   width: screenWidth * .3,
                                   padding: const EdgeInsets.only(top: 6),
                                   child: const Text(
-                                    "₱ 1500.00",
+                                    "₱ 1288.00",
                                     textAlign: TextAlign.center,
                                     style: TextStyle(
                                         fontSize: 20, color: Colors.white),
@@ -131,7 +131,7 @@ class _PlansPageState extends State<PlansPage> {
                             ),
                             SizedBox(height: screenHeight * .01),
                             const Text(
-                              "Speed burst to 5 mbps. Average speed of up to 3mbps",
+                              "Speed burst to 15 mbps. Average speed of up to 10mbps",
                               textAlign: TextAlign.center,
                               style: TextStyle(
                                   color: Color(0XFF6286CB), fontSize: 14),
@@ -141,9 +141,9 @@ class _PlansPageState extends State<PlansPage> {
                             ),
                             MaterialButton(
                               shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(10),
+                                borderRadius: BorderRadius.circular(15),
                               ),
-                              color: Colors.red,
+                              color: const Color(0XFFE40000),
                               height: screenHeight * .03,
                               onPressed: () {},
                               child: const Text(
@@ -167,7 +167,7 @@ class _PlansPageState extends State<PlansPage> {
                           color: Colors.transparent,
                           borderRadius: BorderRadius.circular(15),
                           border: Border.all(
-                            color: const Color(0xFF000159),
+                            color: const Color(0xFF0A0C7F),
                             width: screenWidth * .01,
                           ),
                         ),
@@ -177,7 +177,7 @@ class _PlansPageState extends State<PlansPage> {
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
                                 const Text(
-                                  "5 Mbps",
+                                  "25 Mbps",
                                   style: TextStyle(
                                     fontSize: 30,
                                     fontWeight: FontWeight.bold,
@@ -195,7 +195,7 @@ class _PlansPageState extends State<PlansPage> {
                                   width: screenWidth * .3,
                                   padding: const EdgeInsets.only(top: 6),
                                   child: const Text(
-                                    "₱ 1500.00",
+                                    "₱ 1688.00",
                                     textAlign: TextAlign.center,
                                     style: TextStyle(
                                         fontSize: 20, color: Colors.white),
@@ -205,7 +205,7 @@ class _PlansPageState extends State<PlansPage> {
                             ),
                             SizedBox(height: screenHeight * .01),
                             const Text(
-                              "Speed burst to 5 mbps. Average speed of up to 3mbps",
+                              "Speed burst to 30 mbps. Average speed of up to 25mbps",
                               textAlign: TextAlign.center,
                               style: TextStyle(
                                   color: Color(0XFF6286CB), fontSize: 14),
@@ -215,9 +215,9 @@ class _PlansPageState extends State<PlansPage> {
                             ),
                             MaterialButton(
                               shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(10),
+                                borderRadius: BorderRadius.circular(15),
                               ),
-                              color: Colors.red,
+                              color: const Color(0XFFE40000),
                               height: screenHeight * .03,
                               onPressed: () {},
                               child: const Text(
@@ -241,7 +241,7 @@ class _PlansPageState extends State<PlansPage> {
                           color: Colors.transparent,
                           borderRadius: BorderRadius.circular(15),
                           border: Border.all(
-                            color: const Color(0xFF000159),
+                            color: const Color(0xFF0A0C7F),
                             width: screenWidth * .01,
                           ),
                         ),
@@ -251,7 +251,7 @@ class _PlansPageState extends State<PlansPage> {
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
                                 const Text(
-                                  "5 Mbps",
+                                  "40 Mbps",
                                   style: TextStyle(
                                     fontSize: 30,
                                     fontWeight: FontWeight.bold,
@@ -269,7 +269,7 @@ class _PlansPageState extends State<PlansPage> {
                                   width: screenWidth * .3,
                                   padding: const EdgeInsets.only(top: 6),
                                   child: const Text(
-                                    "₱ 1500.00",
+                                    "₱ 1888.00",
                                     textAlign: TextAlign.center,
                                     style: TextStyle(
                                         fontSize: 20, color: Colors.white),
@@ -279,7 +279,7 @@ class _PlansPageState extends State<PlansPage> {
                             ),
                             SizedBox(height: screenHeight * .01),
                             const Text(
-                              "Speed burst to 5 mbps. Average speed of up to 3mbps",
+                              "Speed burst to 50 mbps. Average speed of up to 40mbps",
                               textAlign: TextAlign.center,
                               style: TextStyle(
                                   color: Color(0XFF6286CB), fontSize: 14),
@@ -289,9 +289,9 @@ class _PlansPageState extends State<PlansPage> {
                             ),
                             MaterialButton(
                               shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(10),
+                                borderRadius: BorderRadius.circular(15),
                               ),
-                              color: Colors.red,
+                              color: const Color(0XFFE40000),
                               height: screenHeight * .03,
                               onPressed: () {},
                               child: const Text(
@@ -315,7 +315,7 @@ class _PlansPageState extends State<PlansPage> {
                           color: Colors.transparent,
                           borderRadius: BorderRadius.circular(15),
                           border: Border.all(
-                            color: const Color(0xFF000159),
+                            color: const Color(0xFF0A0C7F),
                             width: screenWidth * .01,
                           ),
                         ),
@@ -325,7 +325,7 @@ class _PlansPageState extends State<PlansPage> {
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
                                 const Text(
-                                  "5 Mbps",
+                                  "80 Mbps",
                                   style: TextStyle(
                                     fontSize: 30,
                                     fontWeight: FontWeight.bold,
@@ -343,7 +343,7 @@ class _PlansPageState extends State<PlansPage> {
                                   width: screenWidth * .3,
                                   padding: const EdgeInsets.only(top: 6),
                                   child: const Text(
-                                    "₱ 1500.00",
+                                    "₱ 2888.00",
                                     textAlign: TextAlign.center,
                                     style: TextStyle(
                                         fontSize: 20, color: Colors.white),
@@ -353,7 +353,7 @@ class _PlansPageState extends State<PlansPage> {
                             ),
                             SizedBox(height: screenHeight * .01),
                             const Text(
-                              "Speed burst to 5 mbps. Average speed of up to 3mbps",
+                              "Speed burst to 100 mbps. Average speed of up to 80mbps",
                               textAlign: TextAlign.center,
                               style: TextStyle(
                                   color: Color(0XFF6286CB), fontSize: 14),
@@ -363,9 +363,9 @@ class _PlansPageState extends State<PlansPage> {
                             ),
                             MaterialButton(
                               shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(10),
+                                borderRadius: BorderRadius.circular(15),
                               ),
-                              color: Colors.red,
+                              color: const Color(0XFFE40000),
                               height: screenHeight * .03,
                               onPressed: () {},
                               child: const Text(
@@ -390,7 +390,7 @@ class _PlansPageState extends State<PlansPage> {
                           color: Colors.transparent,
                           borderRadius: BorderRadius.circular(15),
                           border: Border.all(
-                            color: const Color(0xFF000159),
+                            color: const Color(0xFF0A0C7F),
                             width: screenWidth * .01,
                           ),
                         ),
@@ -400,7 +400,7 @@ class _PlansPageState extends State<PlansPage> {
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
                                 const Text(
-                                  "5 Mbps",
+                                  "3 Mbps",
                                   style: TextStyle(
                                     fontSize: 30,
                                     fontWeight: FontWeight.bold,
@@ -418,7 +418,7 @@ class _PlansPageState extends State<PlansPage> {
                                   width: screenWidth * .3,
                                   padding: const EdgeInsets.only(top: 6),
                                   child: const Text(
-                                    "₱ 1500.00",
+                                    "₱ 2088.00",
                                     textAlign: TextAlign.center,
                                     style: TextStyle(
                                         fontSize: 20, color: Colors.white),
@@ -438,9 +438,9 @@ class _PlansPageState extends State<PlansPage> {
                             ),
                             MaterialButton(
                               shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(10),
+                                borderRadius: BorderRadius.circular(15),
                               ),
-                              color: Colors.red,
+                              color: const Color(0XFFE40000),
                               height: screenHeight * .03,
                               onPressed: () {},
                               child: const Text(
@@ -464,7 +464,7 @@ class _PlansPageState extends State<PlansPage> {
                           color: Colors.transparent,
                           borderRadius: BorderRadius.circular(15),
                           border: Border.all(
-                            color: const Color(0xFF000159),
+                            color: const Color(0xFF0A0C7F),
                             width: screenWidth * .01,
                           ),
                         ),
@@ -474,7 +474,7 @@ class _PlansPageState extends State<PlansPage> {
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
                                 const Text(
-                                  "5 Mbps",
+                                  "10 Mbps",
                                   style: TextStyle(
                                     fontSize: 30,
                                     fontWeight: FontWeight.bold,
@@ -492,7 +492,7 @@ class _PlansPageState extends State<PlansPage> {
                                   width: screenWidth * .3,
                                   padding: const EdgeInsets.only(top: 6),
                                   child: const Text(
-                                    "₱ 1500.00",
+                                    "₱ 3888.00",
                                     textAlign: TextAlign.center,
                                     style: TextStyle(
                                         fontSize: 20, color: Colors.white),
@@ -502,7 +502,7 @@ class _PlansPageState extends State<PlansPage> {
                             ),
                             SizedBox(height: screenHeight * .01),
                             const Text(
-                              "Speed burst to 5 mbps. Average speed of up to 3mbps",
+                              "Speed burst to 15 mbps. Average speed of up to 10mbps",
                               textAlign: TextAlign.center,
                               style: TextStyle(
                                   color: Color(0XFF6286CB), fontSize: 14),
@@ -512,9 +512,9 @@ class _PlansPageState extends State<PlansPage> {
                             ),
                             MaterialButton(
                               shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(10),
+                                borderRadius: BorderRadius.circular(15),
                               ),
-                              color: Colors.red,
+                              color: const Color(0XFFE40000),
                               height: screenHeight * .03,
                               onPressed: () {},
                               child: const Text(
@@ -538,7 +538,7 @@ class _PlansPageState extends State<PlansPage> {
                           color: Colors.transparent,
                           borderRadius: BorderRadius.circular(15),
                           border: Border.all(
-                            color: const Color(0xFF000159),
+                            color: const Color(0xFF0A0C7F),
                             width: screenWidth * .01,
                           ),
                         ),
@@ -548,7 +548,7 @@ class _PlansPageState extends State<PlansPage> {
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
                                 const Text(
-                                  "5 Mbps",
+                                  "25 Mbps",
                                   style: TextStyle(
                                     fontSize: 30,
                                     fontWeight: FontWeight.bold,
@@ -566,7 +566,7 @@ class _PlansPageState extends State<PlansPage> {
                                   width: screenWidth * .3,
                                   padding: const EdgeInsets.only(top: 6),
                                   child: const Text(
-                                    "₱ 1500.00",
+                                    "₱ 4888.00",
                                     textAlign: TextAlign.center,
                                     style: TextStyle(
                                         fontSize: 20, color: Colors.white),
@@ -576,7 +576,7 @@ class _PlansPageState extends State<PlansPage> {
                             ),
                             SizedBox(height: screenHeight * .01),
                             const Text(
-                              "Speed burst to 5 mbps. Average speed of up to 3mbps",
+                              "Speed burst to 30 mbps. Average speed of up to 25mbps",
                               textAlign: TextAlign.center,
                               style: TextStyle(
                                   color: Color(0XFF6286CB), fontSize: 14),
@@ -586,9 +586,9 @@ class _PlansPageState extends State<PlansPage> {
                             ),
                             MaterialButton(
                               shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(10),
+                                borderRadius: BorderRadius.circular(15),
                               ),
-                              color: Colors.red,
+                              color: const Color(0XFFE40000),
                               height: screenHeight * .03,
                               onPressed: () {},
                               child: const Text(
@@ -612,7 +612,7 @@ class _PlansPageState extends State<PlansPage> {
                           color: Colors.transparent,
                           borderRadius: BorderRadius.circular(15),
                           border: Border.all(
-                            color: const Color(0xFF000159),
+                            color: const Color(0xFF0A0C7F),
                             width: screenWidth * .01,
                           ),
                         ),
@@ -622,7 +622,7 @@ class _PlansPageState extends State<PlansPage> {
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
                                 const Text(
-                                  "5 Mbps",
+                                  "40 Mbps",
                                   style: TextStyle(
                                     fontSize: 30,
                                     fontWeight: FontWeight.bold,
@@ -640,7 +640,7 @@ class _PlansPageState extends State<PlansPage> {
                                   width: screenWidth * .3,
                                   padding: const EdgeInsets.only(top: 6),
                                   child: const Text(
-                                    "₱ 1500.00",
+                                    "₱ 8888.00",
                                     textAlign: TextAlign.center,
                                     style: TextStyle(
                                         fontSize: 20, color: Colors.white),
@@ -650,7 +650,7 @@ class _PlansPageState extends State<PlansPage> {
                             ),
                             SizedBox(height: screenHeight * .01),
                             const Text(
-                              "Speed burst to 5 mbps. Average speed of up to 3mbps",
+                              "Speed burst to 50 mbps. Average speed of up to 40mbps",
                               textAlign: TextAlign.center,
                               style: TextStyle(
                                   color: Color(0XFF6286CB), fontSize: 14),
@@ -660,9 +660,9 @@ class _PlansPageState extends State<PlansPage> {
                             ),
                             MaterialButton(
                               shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(10),
+                                borderRadius: BorderRadius.circular(15),
                               ),
-                              color: Colors.red,
+                              color: const Color(0XFFE40000),
                               height: screenHeight * .03,
                               onPressed: () {},
                               child: const Text(

@@ -15,7 +15,7 @@ class _PaymentPageState extends State<PaymentPage> {
     return ListView(
       children: [
         Container(
-          color: const Color(0xFF000159),
+          color: const Color(0xFF0A0C7F),
           height: screenHeight * .915,
           width: screenWidth,
           child: Column(
@@ -43,13 +43,125 @@ class _PaymentPageState extends State<PaymentPage> {
                   ),
                 ),
                 child: ListView(
-                  padding: const EdgeInsets.only(top: 30),
-                  children: const [],
+                  padding: const EdgeInsets.only(left: 40, right: 40, top: 40),
+                  children: [
+                    const Text(
+                      'Details needed for payment can be found in your bill:',
+                      style: TextStyle(
+                        fontSize: 21,
+                        fontWeight: FontWeight.bold,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                    Container(
+                      margin: const EdgeInsets.only(
+                        top: 20,
+                      ),
+                      child: Row(
+                        children: [
+                          const Text(
+                            'Billers name:',
+                            style: TextStyle(fontSize: 15),
+                          ),
+                          SizedBox(
+                            width: screenWidth * .265,
+                          ),
+                          const Text(
+                            'Racitelcom',
+                            style: TextStyle(fontSize: 15),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: const EdgeInsets.only(top: 15),
+                      child: Row(
+                        children: [
+                          const Text(
+                            'Account Number:',
+                            style: TextStyle(fontSize: 15),
+                          ),
+                          SizedBox(
+                            width: screenWidth * .20,
+                          ),
+                          const Text(
+                            'MAR- 001234 or 0123456',
+                          ),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: const EdgeInsets.only(top: 15, bottom: 5),
+                      child: Row(
+                        children: [
+                          const Text(
+                            'Account Name:',
+                            style: TextStyle(fontSize: 15),
+                          ),
+                          SizedBox(
+                            width: screenWidth * .23,
+                          ),
+                          const Text(
+                            'Lastname, Firstname, M.I, \nCompany Name',
+                            style: TextStyle(fontSize: 15),
+                          ),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 15,
+                    ),
+                    const Text(
+                      ' Total amount due:',
+                      style: TextStyle(fontSize: 17),
+                    ),
+                    const SizedBox(
+                      height: 15,
+                    ),
+                    const Text(
+                      'For Real Time Payment Posting:',
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                      textAlign: TextAlign.center,
+                    ),
+                    SizedBox(height: screenHeight * .025),
+                    Container(
+                      padding: const EdgeInsets.only(left: 10, right: 10),
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(20),
+                        child: Image.asset("assets/images/epayment.png"),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 10,
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 30, right: 30),
+                      child: MaterialButton(
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                        color: const Color(0xFFF5F5F5),
+                        height: screenHeight * .06,
+                        onPressed: () {},
+                        child: const Text(
+                          "Back",
+                          style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold,
+                              decoration: TextDecoration.underline),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 20,
+                    )
+                  ],
                 ),
               ),
             ],
           ),
-        )
+        ),
       ],
     );
   }

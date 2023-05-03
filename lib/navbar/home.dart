@@ -210,8 +210,8 @@ class _HomePageState extends State<HomePage> {
             children: [
               Container(
                 padding: const EdgeInsets.only(top: 20),
-                height: screenHeight * .17,
-                width: screenWidth * .35,
+                height: screenHeight * .18,
+                width: screenWidth * .40,
                 decoration: BoxDecoration(
                   color: Colors.transparent,
                   borderRadius: BorderRadius.circular(15),
@@ -241,10 +241,13 @@ class _HomePageState extends State<HomePage> {
                   ],
                 ),
               ),
+              const SizedBox(
+                width: 15,
+              ),
               Container(
                 padding: const EdgeInsets.only(top: 20),
-                height: screenHeight * .17,
-                width: screenWidth * .35,
+                height: screenHeight * .18,
+                width: screenWidth * .40,
                 decoration: BoxDecoration(
                   color: Colors.transparent,
                   borderRadius: BorderRadius.circular(15),

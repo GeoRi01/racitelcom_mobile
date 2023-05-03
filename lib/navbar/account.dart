@@ -44,12 +44,174 @@ class _AccountPageState extends State<AccountPage> {
                 ),
                 child: ListView(
                   padding: const EdgeInsets.only(top: 30),
-                  children: const [],
+                  children: [
+                    Column(
+                      children: [
+                        Container(
+                          padding: const EdgeInsets.all(8),
+                          child: Column(
+                            children: [
+                              SizedBox(
+                                width: 120,
+                                height: 120,
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(100),
+                                  child: const Image(
+                                    image:
+                                        AssetImage("assets/images/profile.png"),
+                                  ),
+                                ),
+                              ),
+                              const SizedBox(
+                                height: 10,
+                              ),
+                              Text(
+                                "Subscribers",
+                                style:
+                                    Theme.of(context).textTheme.headlineMedium,
+                              ),
+                              Text(
+                                "subscribers@gmail.com",
+                                style: Theme.of(context).textTheme.bodyMedium,
+                              ),
+                              const SizedBox(
+                                height: 40,
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 50, right: 50),
+                      child: MaterialButton(
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                        color: const Color(0XFFF5F5F5),
+                        height: 70,
+                        onPressed: () {},
+                        child: Row(
+                          children: const [
+                            Icon(
+                              Icons.person_2_outlined,
+                              size: 40,
+                              color: Color(0XFF3B3B3B),
+                            ),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            Text(
+                              "My Profile",
+                              style: TextStyle(
+                                  fontSize: 23, color: Color(0XFF3B3B3B)),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 20,
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 50, right: 50),
+                      child: MaterialButton(
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                        color: const Color(0XFFF5F5F5),
+                        height: 70,
+                        onPressed: () {},
+                        child: Row(
+                          children: const [
+                            Icon(
+                              Icons.schedule_outlined,
+                              size: 40,
+                              color: Color(0XFF3B3B3B),
+                            ),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            Text(
+                              "Order Status",
+                              style: TextStyle(
+                                  fontSize: 23, color: Color(0XFF3B3B3B)),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 20,
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 50, right: 50),
+                      child: MaterialButton(
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                        color: const Color(0XFFF5F5F5),
+                        height: 70,
+                        onPressed: () {},
+                        child: Row(
+                          children: const [
+                            Icon(
+                              Icons.autorenew_outlined,
+                              size: 40,
+                              color: Color(0XFF3B3B3B),
+                            ),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            Text(
+                              "Change Password",
+                              style: TextStyle(
+                                  fontSize: 23, color: Color(0XFF3B3B3B)),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 20,
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 50, right: 50),
+                      child: MaterialButton(
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                        color: const Color(0XFFF5F5F5),
+                        height: 70,
+                        onPressed: () {},
+                        child: Row(
+                          children: const [
+                            Icon(
+                              Icons.settings_outlined,
+                              size: 40,
+                              color: Color(0XFF3B3B3B),
+                            ),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            Text(
+                              "Settings",
+                              style: TextStyle(
+                                  fontSize: 23, color: Color(0XFF3B3B3B)),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 20,
+                    ),
+                  ],
                 ),
               ),
             ],
           ),
-        )
+        ),
       ],
     );
   }

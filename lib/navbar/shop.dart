@@ -99,7 +99,8 @@ class _ShopPageState extends State<ShopPage>
                               ),
                             ),
                             Padding(
-                              padding: const EdgeInsets.only(left: 15, right: 15),
+                              padding:
+                                  const EdgeInsets.only(left: 15, right: 15),
                               child: IconButton(
                                 color: const Color(0XFF0A0C7F),
                                 icon: const Icon(
@@ -200,7 +201,7 @@ class _ShopPageState extends State<ShopPage>
                         ),
                         SizedBox(
                           width: double.maxFinite,
-                          height: 530,
+                          height: 540,
                           child: TabBarView(
                             controller: _tabController,
                             children: const [
