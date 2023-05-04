@@ -2,6 +2,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:racitel/category/all.dart';
+import 'package:racitel/category/cables.dart';
+import 'package:racitel/category/routers.dart';
+import 'package:racitel/category/telephone.dart';
 
 class ShopPage extends StatefulWidget {
   const ShopPage({super.key});
@@ -173,7 +176,7 @@ class _ShopPageState extends State<ShopPage>
                                 child: const Align(
                                   alignment: Alignment.center,
                                   child: Text(
-                                    "Modem",
+                                    "Cables",
                                     style: TextStyle(fontSize: 18),
                                   ),
                                 ),
@@ -191,8 +194,8 @@ class _ShopPageState extends State<ShopPage>
                                 child: const Align(
                                   alignment: Alignment.center,
                                   child: Text(
-                                    "Cables",
-                                    style: TextStyle(fontSize: 18),
+                                    "Telephone",
+                                    style: TextStyle(fontSize: 15),
                                   ),
                                 ),
                               ),
@@ -209,9 +212,18 @@ class _ShopPageState extends State<ShopPage>
                                 padding: EdgeInsets.all(24.0),
                                 child: AllCategory(),
                               ),
-                              Text("Routers"),
-                              Text("Modem"),
-                              Text("Cables"),
+                              Padding(
+                                padding: EdgeInsets.all(24.0),
+                                child: RoutersCategory(),
+                              ),
+                              Padding(
+                                padding: EdgeInsets.all(24.0),
+                                child: CablesCategory(),
+                              ),
+                              Padding(
+                                padding: EdgeInsets.all(24.0),
+                                child: TelephoneCategory(),
+                              ),
                             ],
                           ),
                         )

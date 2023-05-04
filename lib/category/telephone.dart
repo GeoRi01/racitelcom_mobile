@@ -1,30 +1,15 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class AllCategory extends StatefulWidget {
-  const AllCategory({super.key});
+class TelephoneCategory extends StatefulWidget {
+  const TelephoneCategory({super.key});
 
   @override
-  State<AllCategory> createState() => _AllCategoryState();
+  State<TelephoneCategory> createState() => _TelephoneCategoryState();
 }
 
-class _AllCategoryState extends State<AllCategory> {
+class _TelephoneCategoryState extends State<TelephoneCategory> {
   final List<Map<String, dynamic>> gridMap = [
-    {
-      "title": "Router",
-      "price": "₱ 3,000.00",
-      "images": "assets/images/router1.png",
-    },
-    {
-      "title": "Power Adapter",
-      "price": "₱ 500.00",
-      "images": "assets/images/charger1.png",
-    },
-    {
-      "title": "LAN Cable",
-      "price": "₱ 300.00",
-      "images": "assets/images/ethernet1.png",
-    },
     {
       "title": "Telephone",
       "price": "₱ 1,500.00",
