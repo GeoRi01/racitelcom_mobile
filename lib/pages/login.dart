@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:racitel/pages/forgot.dart';
 import 'package:racitel/pages/navbar.dart';
 
 class LoginPage extends StatefulWidget {
@@ -98,7 +99,14 @@ class _LoginPageState extends State<LoginPage> {
               height: screenHeight * .035,
             ),
             GestureDetector(
-              onTap: () {},
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const ForgotpasswordPage(),
+                  ),
+                );
+              },
               child: const Text(
                 "Forgot Password?",
                 style: TextStyle(

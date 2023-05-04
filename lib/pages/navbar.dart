@@ -12,9 +12,9 @@ class Home extends StatefulWidget {
   State<Home> createState() => _HomeState();
 }
 
-class _HomeState extends State<Home> {
-  int _selectedIndex = 0;
+int _selectedIndex = 0;
 
+class _HomeState extends State<Home> {
   final screen = [
     const HomePage(),
     const ShopPage(),

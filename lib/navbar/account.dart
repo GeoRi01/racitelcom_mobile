@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:racitel/settings/settings.dart';
 
 class AccountPage extends StatefulWidget {
   const AccountPage({super.key});
@@ -15,7 +16,7 @@ class _AccountPageState extends State<AccountPage> {
     return ListView(
       children: [
         Container(
-          color: const Color(0xFF000159),
+          color: const Color(0xFF0A0C7F),
           height: screenHeight * .915,
           width: screenWidth,
           child: Column(
@@ -183,7 +184,14 @@ class _AccountPageState extends State<AccountPage> {
                         ),
                         color: const Color(0XFFF5F5F5),
                         height: 70,
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const SettingsPage(),
+                            ),
+                          );
+                        },
                         child: Row(
                           children: const [
                             Icon(
