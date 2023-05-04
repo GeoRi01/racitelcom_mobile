@@ -70,7 +70,7 @@ class _RoutersCategoryState extends State<RoutersCategory> {
                     Text(
                       "   ${gridMap.elementAt(index)['price']}",
                       style: Theme.of(context).textTheme.titleSmall!.merge(
-                            TextStyle(
+                            const TextStyle(
                               fontWeight: FontWeight.w700,
                               color: Color(0XFFE40000),
                             ),
