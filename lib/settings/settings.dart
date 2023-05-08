@@ -1,5 +1,8 @@
+// ignore_for_file: unused_element
+
 import 'package:flutter/material.dart';
 import 'package:racitel/pages/login.dart';
+import 'package:racitel/settings/help.dart';
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key});
@@ -8,8 +11,7 @@ class SettingsPage extends StatefulWidget {
   State<SettingsPage> createState() => _SettingsPageState();
 }
 
-int index = 4;
-int a = 0;
+int _selectedIndex = 0;
 
 class _SettingsPageState extends State<SettingsPage> {
   @override
@@ -130,7 +132,14 @@ class _SettingsPageState extends State<SettingsPage> {
                 ),
                 color: const Color(0XFFF5F5F5),
                 height: 70,
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const HelpSupportPage(),
+                    ),
+                  );
+                },
                 child: Row(
                   children: const [
                     Icon(

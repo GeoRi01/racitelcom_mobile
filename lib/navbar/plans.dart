@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:racitel/plans/sub_plan.dart';
 import 'package:slide_switcher/slide_switcher.dart';
 
 class PlansPage extends StatefulWidget {
@@ -145,7 +146,15 @@ class _PlansPageState extends State<PlansPage> {
                               ),
                               color: const Color(0XFFE40000),
                               height: screenHeight * .03,
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) =>
+                                        const SubscribePlanPage(),
+                                  ),
+                                );
+                              },
                               child: const Text(
                                 "Subscribe",
                                 style: TextStyle(
@@ -219,7 +228,15 @@ class _PlansPageState extends State<PlansPage> {
                               ),
                               color: const Color(0XFFE40000),
                               height: screenHeight * .03,
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) =>
+                                        const SubscribePlanPage(),
+                                  ),
+                                );
+                              },
                               child: const Text(
                                 "Subscribe",
                                 style: TextStyle(
@@ -293,7 +310,15 @@ class _PlansPageState extends State<PlansPage> {
                               ),
                               color: const Color(0XFFE40000),
                               height: screenHeight * .03,
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) =>
+                                        const SubscribePlanPage(),
+                                  ),
+                                );
+                              },
                               child: const Text(
                                 "Subscribe",
                                 style: TextStyle(
@@ -367,7 +392,15 @@ class _PlansPageState extends State<PlansPage> {
                               ),
                               color: const Color(0XFFE40000),
                               height: screenHeight * .03,
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) =>
+                                        const SubscribePlanPage(),
+                                  ),
+                                );
+                              },
                               child: const Text(
                                 "Subscribe",
                                 style: TextStyle(
@@ -442,7 +475,15 @@ class _PlansPageState extends State<PlansPage> {
                               ),
                               color: const Color(0XFFE40000),
                               height: screenHeight * .03,
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) =>
+                                        const SubscribePlanPage(),
+                                  ),
+                                );
+                              },
                               child: const Text(
                                 "Subscribe",
                                 style: TextStyle(
@@ -516,7 +557,15 @@ class _PlansPageState extends State<PlansPage> {
                               ),
                               color: const Color(0XFFE40000),
                               height: screenHeight * .03,
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) =>
+                                        const SubscribePlanPage(),
+                                  ),
+                                );
+                              },
                               child: const Text(
                                 "Subscribe",
                                 style: TextStyle(
@@ -590,7 +639,15 @@ class _PlansPageState extends State<PlansPage> {
                               ),
                               color: const Color(0XFFE40000),
                               height: screenHeight * .03,
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) =>
+                                        const SubscribePlanPage(),
+                                  ),
+                                );
+                              },
                               child: const Text(
                                 "Subscribe",
                                 style: TextStyle(
@@ -664,7 +721,15 @@ class _PlansPageState extends State<PlansPage> {
                               ),
                               color: const Color(0XFFE40000),
                               height: screenHeight * .03,
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) =>
+                                        const SubscribePlanPage(),
+                                  ),
+                                );
+                              },
                               child: const Text(
                                 "Subscribe",
                                 style: TextStyle(
